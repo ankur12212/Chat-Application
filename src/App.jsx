@@ -8,7 +8,7 @@ import ProfilePage from './pages/ProfilePage'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-gray-500'>
       <Routes>
         <Route path='/' element={<HomePage />}/>
         <Route path='/login' element={<LoginPage />}/>
